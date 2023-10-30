@@ -5,3 +5,46 @@
     --subtitle-color: #6e6e73;
     --sction-color: #2997ff; 
  }
+
+header{
+    background-color: var(--bg-primary);
+    color: var(--text-ligth);
+    height: fit-content;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 12px 0;
+}
+
+header nav ul{
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+    background-color: var(--bg-primary);
+}
+
+header nav ul li{
+    min-width: fit-content;
+    height: fit-content;
+    padding: 0 0.75rem;
+    font-size: small;
+    cursor: pointer;
+
+    list-style: none
+}
+
+main section{
+    text-align: center;
+}
+
+main section h1{
+    color: var(--title-primary-color);
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+    letter-spacing: -0.28px;
+}
